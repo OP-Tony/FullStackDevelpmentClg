@@ -1,4 +1,4 @@
-# Bat Ball Stump Game
+# Simple Cricket Game
 A simple web-based game based on the logic of Rock-Paper-Scissors, themed around Cricket.
 ## How to Play
 1. Open the game in your browser.
