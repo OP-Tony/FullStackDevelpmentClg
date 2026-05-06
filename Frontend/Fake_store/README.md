@@ -1,8 +1,8 @@
-# ?? FakeStore - Modern E-Commerce Storefront
+# 🛒 FakeStore - Modern E-Commerce Storefront
 
 A sleek, high-performance e-commerce prototype built with **React** and **Vite**. This project demonstrates a complete shopping experience, from dynamic product browsing to a functional cart system, powered by the [Fake Store API](https://fakestoreapi.com/).
 
-## ? Key Features
+## ✨ Key Features
 
 - **Dynamic Product Discovery:** Browse products with real-time filtering by category and search functionality.
 - **Interactive Cart System:** Add, remove, and update item quantities with a sliding drawer interface.
@@ -12,36 +12,36 @@ A sleek, high-performance e-commerce prototype built with **React** and **Vite**
   - **Responsive Design:** Sticky navigation and mobile-optimized layouts.
 - **Live Data:** Integration with Fake Store API for authentic product data and images.
 
-## ?? Tech Stack
+## 🚀 Tech Stack
 
 - **Frontend:** React.js (Hooks, Context-like state management)
 - **Build Tool:** Vite
 - **Data Fetching:** Axios
 - **Styling:** Vanilla CSS (Modern flex/grid layouts)
 
-## ??? Installation & Setup
+## 🛠️ Installation & Setup
 
 1. **Clone the repository:**
-   `ash
+   ```bash
    git clone https://github.com/OP-Tony/FullStackDevelpmentClg.git
    cd FullStackDevelpmentClg/Frontend/Fake_store
-   `
+   ```
 
 2. **Install dependencies:**
-   `ash
+   ```bash
    npm install
-   `
+   ```
 
 3. **Run the development server:**
-   `ash
+   ```bash
    npm run dev
-   `
+   ```
 
-## ?? Project Structure
+## 📂 Project Structure
 
-- src/FakeStoreProducts.jsx: Handles data fetching, filtering, and product display logic.
-- src/App.jsx: Main application container managing cart state and navigation.
-- src/*.css: Modular styling for a clean, professional aesthetic.
+- `src/FakeStoreProducts.jsx`: Handles data fetching, filtering, and product display logic.
+- `src/App.jsx`: Main application container managing cart state and navigation.
+- `src/*.css`: Modular styling for a clean, professional aesthetic.
 
 ---
-Built with ?? by [Phani](https://github.com/OP-Tony)
+Built with ❤️ by [Phani](https://github.com/OP-Tony)
