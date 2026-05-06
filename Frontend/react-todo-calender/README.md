@@ -1,16 +1,65 @@
-# React + Vite
+# 💠 ChronoSync | AI-Powered Todo & Calendar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="src/assets/hero.png" alt="ChronoSync Hero" width="600px" style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);"/>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ The Future of Productivity
 
-## React Compiler
+**ChronoSync** is a high-performance, aesthetically driven task management suite. Built for speed and visual clarity, it merges a powerful **Event Calendar** with a streamlined **Todo System** into a unified, futuristic interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🚀 Key Features
 
-## Expanding the ESLint configuration
+- **✧ Galactic Calendar View** – Seamlessly navigate through months with a fluid, responsive grid.
+- **✧ Event Orchestration** – Add, manage, and track events with interactive modals and real-time updates.
+- **✧ Dynamic Todo Engine** – Stay on top of your tasks with a categorized, high-contrast task list.
+- **✧ Neon Aesthetics** – A dark-mode optimized interface featuring glassmorphism and glow effects.
+- **✧ Localized Persistence** – Your data stays with you, powered by a lightning-fast JSON backend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🛠 Tech Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | React 18 + Vite |
+| **Styling** | Vanilla CSS (Modern Flex/Grid) |
+| **Backend** | JSON Server |
+| **Icons** | Custom SVG Assets |
+
+---
+
+### 🕹 Getting Started
+
+#### 1. Clone & Install
+```bash
+npm install
+```
+
+#### 2. Launch the Engine
+Run the development server and the JSON backend simultaneously:
+```bash
+npm start
+```
+
+#### 3. Access the Interface
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+### 🌌 Architecture
+
+```text
+src/
+├── components/   # UI Modules (Calendar, TodoList, EventModal)
+├── services/     # API Interaction Layer
+└── assets/       # Futuristic Visual Assets
+```
+
+---
+
+<p align="center">
+  Built with ❤️ for the Modern Developer.
+</p>
