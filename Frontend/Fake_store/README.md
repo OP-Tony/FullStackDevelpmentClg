@@ -44,4 +44,3 @@ A sleek, high-performance e-commerce prototype built with **React** and **Vite**
 - `src/*.css`: Modular styling for a clean, professional aesthetic.
 
 ---
-Built with ❤️ by [Phani](https://github.com/OP-Tony)
