@@ -1,18 +1,47 @@
-# React + Vite
+# ?? FakeStore - Modern E-Commerce Storefront
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, high-performance e-commerce prototype built with **React** and **Vite**. This project demonstrates a complete shopping experience, from dynamic product browsing to a functional cart system, powered by the [Fake Store API](https://fakestoreapi.com/).
 
-Currently, two official plugins are available:
+## ? Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Product Discovery:** Browse products with real-time filtering by category and search functionality.
+- **Interactive Cart System:** Add, remove, and update item quantities with a sliding drawer interface.
+- **Premium UX:**
+  - **Skeleton Loading:** Smooth loading states for a polished feel.
+  - **Toast Notifications:** Instant feedback on user actions.
+  - **Responsive Design:** Sticky navigation and mobile-optimized layouts.
+- **Live Data:** Integration with Fake Store API for authentic product data and images.
 
-## React Compiler
+## ?? Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Frontend:** React.js (Hooks, Context-like state management)
+- **Build Tool:** Vite
+- **Data Fetching:** Axios
+- **Styling:** Vanilla CSS (Modern flex/grid layouts)
 
-Note: This will impact Vite dev & build performances.
+## ??? Installation & Setup
 
-## Expanding the ESLint configuration
+1. **Clone the repository:**
+   `ash
+   git clone https://github.com/OP-Tony/FullStackDevelpmentClg.git
+   cd FullStackDevelpmentClg/Frontend/Fake_store
+   `
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies:**
+   `ash
+   npm install
+   `
+
+3. **Run the development server:**
+   `ash
+   npm run dev
+   `
+
+## ?? Project Structure
+
+- src/FakeStoreProducts.jsx: Handles data fetching, filtering, and product display logic.
+- src/App.jsx: Main application container managing cart state and navigation.
+- src/*.css: Modular styling for a clean, professional aesthetic.
+
+---
+Built with ?? by [Phani](https://github.com/OP-Tony)
